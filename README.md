@@ -143,31 +143,31 @@ The repository contains screenshots demonstrating the implementation.
 
 ## CloudWatch Alarm
 
-[View Cloud Watch Alarm](Output/CloudWatch_Alarm.png)
+[View Cloud Watch Alarm](Outputs/CloudWatch_Alarm.png)
 
 ---
 
 ## Lambda Execution
 
-[View Lambda Execution](Output/Lambda_Output.png)
+[View Lambda Execution](Outputs/Lambda_Output.png)
 
 ---
 
 ## EC2 Recovery
 
-[View EC2 Recovery](Output/EC2_Restart.png)
+[View EC2 Recovery](Outputs/EC2_Restart.png)
 
 ---
 
 ## Email Notification
 
-[View Email Notification](Output/SNS_Email.png)
+[View Email Notification](Outputs/SNS_Email.png)
 
 ---
 
 ## Final Output
 
-[View Final Output](Output/Final_Output.png)
+[View Final Output](Outputs/Final_Output.png)
 
 ---
 
