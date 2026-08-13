@@ -25,37 +25,7 @@ This project demonstrates how modern cloud-native architectures can automaticall
 # 🏗️ Architecture
 
 The project follows an event-driven architecture.
-
-```
-                +---------------------+
-                |     EC2 Instance    |
-                +----------+----------+
-                           |
-                    CloudWatch Metrics
-                           |
-                           ▼
-                +----------------------+
-                | CloudWatch Alarm      |
-                +----------+-----------+
-                           |
-                     Alarm Trigger
-                           |
-                           ▼
-                +----------------------+
-                | AWS Lambda Function  |
-                +----------+-----------+
-                           |
-          +----------------+----------------+
-          |                                 |
-          ▼                                 ▼
-Restart Instance                  Publish Notification
-          |                                 |
-          ▼                                 ▼
-      EC2 Running                     Amazon SNS
-                                              |
-                                              ▼
-                                      Email Notification
-```
+<img width="2380" height="1780" alt="ec2_autoheal_architecture" src="https://github.com/user-attachments/assets/d22ea782-4d53-4582-86c0-c32cd9c0976c" />
 
 ---
 
@@ -167,49 +137,37 @@ The repository contains screenshots demonstrating the implementation.
 
 ## Architecture
 
-```
-Output/Architecture.png
-```
+[View Architecture](Outputs/Architecture.png)
 
 ---
 
 ## CloudWatch Alarm
 
-```
-Output/CloudWatch_Alarm.png
-```
+[View Cloud Watch Alarm](Output/CloudWatch_Alarm.png)
 
 ---
 
 ## Lambda Execution
 
-```
-Output/Lambda_Output.png
-```
+[View Lambda Execution](Output/Lambda_Output.png)
 
 ---
 
 ## EC2 Recovery
 
-```
-Output/EC2_Restart.png
-```
+[View EC2 Recovery](Output/EC2_Restart.png)
 
 ---
 
 ## Email Notification
 
-```
-Output/SNS_Email.png
-```
+[View Email Notification](Output/SNS_Email.png)
 
 ---
 
 ## Final Output
 
-```
-Output/Final_Output.png
-```
+[View Final Output](Output/Final_Output.png)
 
 ---
 
@@ -230,9 +188,8 @@ The Lambda function performs the following tasks:
 
 The project requirements document is included in the repository.
 
-```
-Requirements/
-```
+
+[view Requirements](Requirements/Project_Requirements.md)
 
 ---
 
@@ -315,9 +272,9 @@ B.Tech – Artificial Intelligence and Data Science
 
 KL University, Vijayawada
 
-GitHub: https://github.com/ASRITHCHENNAM
+GitHub: [ASRITHCHENNAM](https://github.com/ASRITHCHENNAM)
 
-LinkedIn: *(Add your LinkedIn profile URL here.)*
+LinkedIn: *[Asrith Chennam](https://www.linkedin.com/in/asrith-chennam/)*
 
 ---
 
